@@ -1,5 +1,4 @@
 def turn_count(board)
-  if turn_count % 2 puts "O"
-  else
+  turn_count.each % 2 do |board|
     puts "X"
 end
